@@ -1,6 +1,8 @@
 import { Switch } from '../utils/switch.type';
 import { Bulb } from './bulb';
 
+// (A + B)' === not(and(A, B)); 
+
 export class Circuit {
 	private bulb01: Bulb;
 	private bulb02: Bulb;
